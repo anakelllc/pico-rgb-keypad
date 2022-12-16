@@ -4,7 +4,7 @@ This template is intended as a starting point for developing your own firmware b
 
 It includes all of the `knurling-rs` tooling as showcased in https://github.com/knurling-rs/app-template (`defmt`, `defmt-rtt`, `panic-probe`, `flip-link`) to make development as easy as possible.
 
-`probe-run` is configured as the default runner, so you can start your program as easy as
+`elf2uf2-rs` is configured as the default runner, so you can start your program as easy as
 ```sh
 cargo run --release
 ```
